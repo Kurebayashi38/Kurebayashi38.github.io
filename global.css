@@ -21,36 +21,71 @@ body, html {
 }
 
 .card-wrap {
-  width: 496px;
-  height: 640px;
+  width: 30%;
+  height: 70%;
   background: #73FFE6;
   display: flex;
   justify-content: center;
+  align-items:  center;
   /* widthを超えたら折返し */
   flex-wrap: wrap;
-}
-
-.card-icon {
-  width: 320px;
-  height: 320px;
-}
-
-.card {
-  width:432px;
-  height:192px;
-  
-  background-color: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
 
-.card-name {
+.card-icon {
+  width: 240px;
+  height: 240px;
+}
 
+.card {
+  width: 80%;
+  height: 30%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.card-name {
+  width: 100%;
+  height: 24px;
+  font-family: "M PLUS 1p", sans-serif;
+  /* 文字サイズ */
+  font-size: 20px;
+  /* 文字の色 font-colorじゃない */
+  color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card-twitter-link {
-
+  width: 100%;
+  height: 16px;
+  font-family: "M PLUS 1p", sans-serif;
+  /* 下線を消す */
+  text-decoration: none;
+  color: #207A5B;
+  font-size: 12px;
+  text-align: center;
 }
 
 .card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
+.card-info-text {
+  font-family: "M PLUS 1p", sans-serif;
+  width: 80%;
+  font-size: 12px;
+  color: #acacac;
 }
